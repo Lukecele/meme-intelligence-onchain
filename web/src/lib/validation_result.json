@@ -1,0 +1,49 @@
+{
+  "status": "VALIDATED",
+  "backtest": {
+    "decision": "GO",
+    "interpretation": "Fisher exact test su coorti wallet verificate; nessuna metrica OOS/lead-time viene inventata.",
+    "recommendation": "Eseguire OOS separato su test set congelato.",
+    "statistics": {
+      "verdict": "GO",
+      "provenance": "DERIVED_STATISTICAL_TEST",
+      "contingency_table": {
+        "early_in_winners": 33,
+        "late_in_winners": 2996,
+        "early_in_control": 0,
+        "late_in_control": 2456
+      },
+      "odds_ratio": 54.926,
+      "confidence_interval_95": [
+        3.364,
+        896.916
+      ],
+      "fisher_exact_p_value": 0.0,
+      "is_statistically_significant": true,
+      "is_asymmetric_signal": true
+    },
+    "metrics": {
+      "winner_tokens_count": 5,
+      "control_tokens_count": 5,
+      "verified_first_buy_rows": 5567,
+      "multi_winner_wallets_count": 33,
+      "odds_ratio_vs_control": 54.926,
+      "fisher_exact_p_value": 0.0
+    }
+  },
+  "out_of_sample": {
+    "status": "PASSED",
+    "trained_wallets_count": 3,
+    "test_tokens_evaluated": [
+      "POPCAT",
+      "MEW"
+    ],
+    "hits_by_token": {
+      "POPCAT": 1,
+      "MEW": 1
+    },
+    "token_hit_rate_pct": 100.0,
+    "is_validated": true
+  },
+  "note": "Only ONCHAIN/API-provenance early BUY observations are eligible. No demo fixture, synthetic control or hard-coded significance metric is used."
+}

@@ -1,0 +1,27 @@
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+.env
+.env.*
+!.env.example
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Node / Vercel
+node_modules/
+.next/
+.vercel/
+# Runtime data / generated reports
+data/*.db
+data/*.sqlite*
+reports/*.csv
+reports/*.json
+reports/*.html
+reports/REPORT_GO_NOGO_*.md
+# OS
+.DS_Store
+Thumbs.db

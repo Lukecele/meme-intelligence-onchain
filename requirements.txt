@@ -1,0 +1,5 @@
+aiohttp>=3.10
+httpx>=0.27
+pandas>=2.2
+rich>=13.7
+networkx>=3.3

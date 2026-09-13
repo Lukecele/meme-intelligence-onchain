@@ -1,0 +1,2 @@
+sed -i "s/address,first_seen_timestamp,notes/address,first_seen_timestamp,score_status,activity_coverage_status,exit_metric_status,is_eligible_smart_signal,notes/" extractors/real_bonk_airdrop_fetcher.py
+sed -i "s/VALUES(?,?,'BONK airdrop recipient from verified distributor')/VALUES(?,?,'INCOMPLETE','INCOMPLETE','INCOMPLETE',0,'BONK airdrop recipient from verified distributor')/" extractors/real_bonk_airdrop_fetcher.py
