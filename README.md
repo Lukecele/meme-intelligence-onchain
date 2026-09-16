@@ -15,21 +15,21 @@
 
 ```mermaid
 flowchart TD
-    subgraph DataSources ["On-Chain & API Data Ingestion"]
+    subgraph DataSources["On-Chain and API Data Ingestion"]
         SolanaRPC["Solana RPC (getTransaction / jsonParsed)"]
         HeliusAPI["Helius API (getTransactionsForAddress)"]
         BirdeyeAPI["Birdeye API (First Buyers, First Funded, Holders)"]
         PythHermes["Pyth Hermes (Real-Time Price Feeds)"]
     end
 
-    subgraph CoreEngine ["Analytical Pipeline & DB"]
+    subgraph CoreEngine["Analytical Pipeline and DB"]
         IngestionEngine["Ingestion Engine (Idempotent SQLite DB)"]
-        Clustering["Wallet Clustering & Funding Graph"]
-        FisherScoring["Selectivity & Fisher Exact Scoring"]
-        RadarEngine["Market Radar & Convergence Detector"]
+        Clustering["Wallet Clustering and Funding Graph"]
+        FisherScoring["Selectivity and Fisher Exact Scoring"]
+        RadarEngine["Market Radar and Convergence Detector"]
     end
 
-    subgraph Interfaces ["Exploration & UI"]
+    subgraph Interfaces["Exploration and UI"]
         CLI["CLI Tool (run.py)"]
         NextWeb["Next.js Web Dashboard (web/)"]
     end
