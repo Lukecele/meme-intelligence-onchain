@@ -34,7 +34,10 @@ flowchart TD
         NextWeb["Next.js Web Dashboard (web/)"]
     end
 
-    DataSources --> IngestionEngine
+    SolanaRPC --> IngestionEngine
+    HeliusAPI --> IngestionEngine
+    BirdeyeAPI --> IngestionEngine
+    PythHermes --> IngestionEngine
     IngestionEngine --> Clustering
     IngestionEngine --> FisherScoring
     Clustering --> RadarEngine
