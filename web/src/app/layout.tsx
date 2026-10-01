@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Solana On-Chain Intelligence System | Radar & Wallet Convergence",
-  description: "Early detection of high-potential meme coins on Solana via smart wallet selectivity, on-chain clustering, and real-time multi-wallet convergence monitoring.",
+  title: "Meme Intelligence | Experimental Solana Research by Lukecele",
+  description: "Explore Solana wallets, liquidity and market data with an experimental research toolkit by Lukecele. Historical validation requires acquired, reviewed data.",
 };
 
 export default function RootLayout({

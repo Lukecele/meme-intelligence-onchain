@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Meme Intelligence by Lukecele</title>
+  <desc id="desc">Explore Solana wallets, liquidity and market data. Experimental research.</desc>
+  <rect width="1280" height="640" fill="#08090d"/>
+  <rect x="52" y="52" width="1176" height="536" rx="24" fill="#12151f" stroke="#334155" stroke-width="2"/>
+  <path d="M90 108h90" stroke="#34d399" stroke-width="8"/>
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="90" y="200" fill="#f3f4f6" font-size="68" font-weight="700">Meme Intelligence</text>
+    <text x="90" y="298" fill="#f3f4f6" font-size="46">Explore Solana wallets,</text>
+    <text x="90" y="358" fill="#f3f4f6" font-size="46">liquidity &amp; market data</text>
+    <text x="90" y="470" fill="#34d399" font-size="28">EXPERIMENTAL RESEARCH</text>
+    <text x="90" y="538" fill="#d1d5db" font-size="34">by Lukecele</text>
+  </g>
+  <g fill="#34d399" stroke="#34d399" stroke-width="3">
+    <path d="M1060 430l65 55-65 55-65-55z" fill="none"/>
+    <circle cx="1060" cy="430" r="9"/><circle cx="1125" cy="485" r="9"/>
+    <circle cx="1060" cy="540" r="9"/><circle cx="995" cy="485" r="9"/>
+  </g>
+</svg>
