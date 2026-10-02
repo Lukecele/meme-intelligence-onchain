@@ -1,5 +1,7 @@
 # Meme Intelligence
 
+[![CI](https://github.com/Lukecele/meme-intelligence-onchain/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/meme-intelligence-onchain/actions/workflows/ci.yml)
+
 **Explore Solana wallets, liquidity & market data.**
 
 An experimental research toolkit by [Luca Celebrano (@Lukecele)](https://github.com/Lukecele), founder and sole member of arbincept. Investigate early buyer cohorts, wallet funding relationships and market context, then examine whether observed patterns survive historical checks.
